@@ -1,0 +1,26 @@
+# Exclure les virtual environments
+venv/
+.env/
+.venv/
+
+# Ignorer les fichiers compilés Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorer les fichiers de configuration d'éditeur
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorer les fichiers de logs ou temporaires
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignorer les fichiers de packages
+*.egg-info/
+dist/
+build/
