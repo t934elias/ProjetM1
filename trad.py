@@ -1,3 +1,4 @@
+# Modele utilisé :  https://huggingface.co/Helsinki-NLP/opus-mt-en-fr
 from transformers import MarianMTModel, MarianTokenizer
 import pandas as pd
 import os
